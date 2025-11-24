@@ -47,8 +47,8 @@ For detailed setup instructions, refer to the [React Native Environment Setup Gu
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd CityPulse
+git clone https://github.com/abnawaz1416/City-Pulse.git
+cd City-Pulse
 ```
 
 ### 2. Install Dependencies
@@ -204,7 +204,6 @@ CityPulse/
 
 **Demo Video**: [Link to video demonstration]
 
-_Note: Replace this placeholder with your actual video link (YouTube, Vimeo, or any hosting service)_
 
 ## Troubleshooting
 
