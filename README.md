@@ -11,6 +11,7 @@ CityPulse is a React Native mobile application that helps users discover and exp
 - 🌐 **Multi-language Support**: English and Arabic (RTL support)
 - 🎨 **Modern UI**: Beautiful, responsive design with smooth animations
 - 📱 **Cross-platform**: Works on both iOS and Android
+- 🗄️ Persistent Storage: Zustand + persist with AsyncStorage to retain user data even after app is closed
   
 
 ## Video Demo
