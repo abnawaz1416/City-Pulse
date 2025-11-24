@@ -66,7 +66,13 @@
     "dontHaveAccount": "Don't have an account?",
     "alreadyHaveAccount": "Already have an account?",
     "signIn": "Sign In",
-    "createAccount": "Create Account"
+    "createAccount": "Create Account",
+    "welcomeBack": "Welcome back! Please sign in to continue",
+    "createAccountSubtitle": "Create your account to get started",
+    "biometricLogin": "Use Biometric",
+    "testCredentials": "Test Credentials",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password"
   },
   "errors": {
     "generic": "Something went wrong",

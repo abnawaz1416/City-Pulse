@@ -5,6 +5,7 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Alert,
 } from 'react-native';
 import LocalizedText from '../../components/common/LocalizedText';
 import ProfileHeader from '../../components/profile/ProfileHeaer';
@@ -13,10 +14,12 @@ import LanguageBottomSheet from '../../components/profile/LanguageBottomSheet';
 import { BottomSheetModal } from '@gorhom/bottom-sheet';
 import ProfileLanguageItem from '../../components/profile/ProfileLanguageItem';
 import { useNavigation } from '@react-navigation/native';
+import { useLogin } from '../../common/hooks/useLogin';
 
 const ProfileScreen = () => {
   const navigation = useNavigation<any>();
   const languageBottomSheetModalRef = useRef<BottomSheetModal>(null);
+  const { logout } = useLogin();
 
   const onDismissLanguageBottomSheet = () => {
     languageBottomSheetModalRef.current?.dismiss();
@@ -31,7 +34,23 @@ const ProfileScreen = () => {
   };
 
   const handleLogout = () => {
-    // Handle logout
+    Alert.alert('Logout', 'Are you sure you want to logout?', [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Logout',
+        style: 'destructive',
+        onPress: async () => {
+          logout();
+          navigation.reset({
+            index: 0,
+            routes: [{ name: 'Login' }],
+          });
+        },
+      },
+    ]);
   };
 
   return (

@@ -5,17 +5,24 @@ import LocalizedText from '../../components/common/LocalizedText';
 import FastImage from '@d11/react-native-fast-image';
 import Animated, { ZoomIn, FadeInUp, Easing } from 'react-native-reanimated';
 
+import { useLogin } from '../../common/hooks/useLogin';
+
 const SplashScreen = () => {
   const navigation = useNavigation<any>();
+  const { isAuthenticated } = useLogin();
 
   useEffect(() => {
     // Navigate after 2 seconds
     const timer = setTimeout(() => {
-      navigation.replace('MainTabs');
+      if (isAuthenticated) {
+        navigation.replace('MainTabs');
+      } else {
+        navigation.replace('Login');
+      }
     }, 2500);
 
     return () => clearTimeout(timer);
-  }, [navigation]);
+  }, [navigation, isAuthenticated]);
 
   return (
     <View style={styles.container}>

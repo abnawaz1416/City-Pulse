@@ -1,25 +1,27 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import FastImage from '@d11/react-native-fast-image';
-
-const user = {
-  name: 'Jane Doe',
-  email: 'jane.doe@example.com',
-  avatar: 'https://i.pravatar.cc/300',
-  stats: {
-    favorites: 12,
-    events: 5,
-  },
-};
+import useUserStore from '../../common/store/useUserStore';
 
 const ProfileHeader = () => {
+  const { user } = useUserStore();
+
+  // Default avatar if user is not logged in
+  const avatarUri = user
+    ? `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=007AFF&color=fff&size=200`
+    : 'https://i.pravatar.cc/300';
+
   return (
     <View style={[styles.card]}>
-      <FastImage source={{ uri: user.avatar }} style={styles.avatar} />
+      <FastImage source={{ uri: avatarUri }} style={styles.avatar} />
 
       <View style={[styles.userInfo]}>
-        <Text style={[styles.userName]}>{user.name}</Text>
-        <Text style={[styles.userEmail]}>{user.email}</Text>
+        <Text style={[styles.userName]}>
+          {user?.name || 'Guest User'}
+        </Text>
+        <Text style={[styles.userEmail]}>
+          {user?.email || 'Not logged in'}
+        </Text>
       </View>
     </View>
   );

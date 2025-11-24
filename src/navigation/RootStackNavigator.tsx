@@ -5,6 +5,7 @@ import MainTabNavigator from './MainTabNavigator';
 import EventDetailScreen from '../screens/eventDetail/EventDetailScreen';
 import { HeaderTitle } from '../components/navigation/HeaderTitle';
 import FavoriteScreen from '../screens/favorite/FavoriteScreen';
+import LoginScreen from '../screens/auth/LoginScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,13 @@ const RootStackNavigator = () => {
       }}
     >
       <Stack.Screen name="Splash" component={SplashScreen} />
+      <Stack.Screen
+        name="Login"
+        component={LoginScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
       <Stack.Screen name="MainTabs" component={MainTabNavigator} />
       <Stack.Screen
         name="EventDetail"

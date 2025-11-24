@@ -54,6 +54,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Octicons.ttf</string>
+		<string>MaterialDesignIcons.ttf</string>
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
@@ -79,5 +80,7 @@
     	<string>lftgpas</string>
     	<string>sygic</string>
 	</array>
+	<key>NSFaceIDUsageDescription</key>
+<string>This app uses Face ID for secure authentication</string>
 </dict>
 </plist>

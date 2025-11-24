@@ -66,7 +66,13 @@
     "dontHaveAccount": "ليس لديك حساب؟",
     "alreadyHaveAccount": "لديك حساب بالفعل؟",
     "signIn": "تسجيل الدخول",
-    "createAccount": "إنشاء حساب"
+    "createAccount": "إنشاء حساب",
+    "welcomeBack": "مرحباً بعودتك! يرجى تسجيل الدخول للمتابعة",
+    "createAccountSubtitle": "أنشئ حسابك للبدء",
+    "biometricLogin": "استخدم البصمة",
+    "testCredentials": "بيانات الاختبار",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "passwordPlaceholder": "أدخل كلمة المرور"
   },
   "errors": {
     "generic": "حدث خطأ ما",
