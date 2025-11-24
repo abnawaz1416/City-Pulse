@@ -5,6 +5,7 @@ CityPulse is a React Native mobile application that helps users discover and exp
 ## Features
 
 - 🔍 **Event Search**: Search events by keyword and city
+- 🔄 **Infinite Scroll**: Seamless infinite scroll pagination for event listings
 - 📅 **Event Details**: Comprehensive event information including date, time, venue, and location
 - ⭐ **Favorites**: Save and manage your favorite events
 - 🗺️ **Map Preview**: Visual location preview for event venues
