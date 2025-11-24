@@ -19,7 +19,12 @@ CityPulse is a React Native mobile application that helps users discover and exp
 
 <!-- Add your video link here when available -->
 
-**Demo Video**: (https://www.youtube.com/shorts/CcmxRDkoQ3g)
+**video 1**: (https://www.youtube.com/shorts/CcmxRDkoQ3g)
+
+**video 2**:
+
+https://github.com/user-attachments/assets/83b06592-e893-4033-9f2e-392bce1c8a7f
+
 
 
 ## Tech Stack
