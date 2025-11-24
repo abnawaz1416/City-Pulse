@@ -1,0 +1,88 @@
+{
+  "common": {
+    "home": "Home",
+    "profile": "Profile",
+    "search": "Search",
+    "favorites": "Favorites",
+    "events": "Events",
+    "eventDetails": "Event Details",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "logout": "Logout",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "language": "Language",
+    "apply": "Apply"
+  },
+  "home": {
+    "title": "City Pulse",
+    "searchPlaceholder": "Search events...",
+    "cityPlaceholder": "Enter city",
+    "noEvents": "No events found",
+    "searchEvents": "Search Events"
+  },
+  "eventDetail": {
+    "title": "Event Details",
+    "name": "Name",
+    "address": "Address",
+    "postalCode": "Postal Code",
+    "pleaseNote": "Please Note",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "location": "Location",
+    "description": "Description",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "getTickets": "Get Tickets",
+    "category": "Category",
+    "segment": "Segment",
+    "genre": "Genre",
+    "subGenre": "Sub Genre",
+    "dateAndTime": "Date & Time",
+    "viewOnGoogleMaps": "View on Maps"
+  },
+  "profile": {
+    "title": "Profile",
+    "email": "Email",
+    "name": "Name",
+    "favoriteEvents": "Favorite Events",
+    "settings": "Settings",
+    "preferences": "Preferences",
+    "viewSavedEvents": "View your saved events",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "createAccount": "Create Account"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "networkError": "Network error. Please check your connection.",
+    "invalidCredentials": "Invalid email or password",
+    "required": "This field is required"
+  },
+  "language": {
+    "title": "Select Language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "favorite": {
+    "title": "Favorite Events"
+  },
+  "splash": {
+    "welcome": "Welcome to City Pulse - Local Event Explorer"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "common": {
+    "home": "الرئيسية",
+    "profile": "الملف الشخصي",
+    "search": "بحث",
+    "favorites": "المفضلة",
+    "events": "الفعاليات",
+    "eventDetails": "تفاصيل الفعالية",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "language": "اللغة",
+    "apply": "تطبيق"
+  },
+  "home": {
+    "title": "نبض المدينة",
+    "searchPlaceholder": "ابحث عن الفعاليات...",
+    "cityPlaceholder": "أدخل المدينة",
+    "noEvents": "لم يتم العثور على فعاليات",
+    "searchEvents": "البحث عن الفعاليات"
+  },
+  "eventDetail": {
+    "title": "تفاصيل الفعالية",
+    "name": "الاسم",
+    "address": "العنوان",
+    "postalCode": "الرمز البريدي",
+    "pleaseNote": "يرجى الملاحظة",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "venue": "المكان",
+    "location": "الموقع",
+    "description": "الوصف",
+    "addToFavorites": "إضافة إلى المفضلة",
+    "removeFromFavorites": "إزالة من المفضلة",
+    "getTickets": "احصل على التذاكر",
+    "category": "الفئة",
+    "segment": "القسم",
+    "genre": "النوع",
+    "subGenre": "النوع الفرعي",
+    "dateAndTime": "التاريخ والوقت",
+    "viewOnGoogleMaps": "عرض على الخرائط"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "email": "البريد الإلكتروني",
+    "name": "الاسم",
+    "favoriteEvents": "الفعاليات المفضلة",
+    "settings": "الإعدادات",
+    "preferences": "التفضيلات",
+    "viewSavedEvents": "عرض الفعاليات المحفوظة",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  },
+  "auth": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signIn": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "required": "هذا الحقل مطلوب"
+  },
+  "language": {
+    "title": "اختر اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  },
+  "favorite": {
+    "title": "الفعاليات المفضلة"
+  },
+  "splash": {
+    "welcome": "مرحباً بك في نبض المدينة - مستكشف الفعاليات المحلية"
+  }
+}
