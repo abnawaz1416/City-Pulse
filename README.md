@@ -11,6 +11,14 @@ CityPulse is a React Native mobile application that helps users discover and exp
 - 🌐 **Multi-language Support**: English and Arabic (RTL support)
 - 🎨 **Modern UI**: Beautiful, responsive design with smooth animations
 - 📱 **Cross-platform**: Works on both iOS and Android
+  
+
+## Video Demo
+
+<!-- Add your video link here when available -->
+
+**Demo Video**: (https://www.youtube.com/shorts/CcmxRDkoQ3g)
+
 
 ## Tech Stack
 
@@ -197,50 +205,5 @@ CityPulse/
 ├── index.js                # Entry point
 └── package.json            # Dependencies and scripts
 ```
-
-## Video Demo
-
-<!-- Add your video link here when available -->
-
-**Demo Video**: [Link to video demonstration]
-
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Metro bundler cache issues**:
-
-   ```bash
-   npm start -- --reset-cache
-   ```
-
-2. **iOS build issues**:
-
-   ```bash
-   cd ios
-   rm -rf Pods Podfile.lock
-   pod install
-   cd ..
-   ```
-
-3. **Android build issues**:
-
-   ```bash
-   cd android
-   ./gradlew clean
-   cd ..
-   ```
-
-4. **Module not found errors**:
-
-   ```bash
-   rm -rf node_modules
-   npm install
-   ```
-
-5. **Reanimated not working**:
-   - Ensure you've followed the [Reanimated setup guide](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/)
-   - For iOS, make sure you've run `pod install`
 
 **Built with ❤️ using React Native**
